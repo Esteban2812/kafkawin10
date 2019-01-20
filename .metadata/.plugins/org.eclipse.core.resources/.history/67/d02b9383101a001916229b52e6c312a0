@@ -1,0 +1,10 @@
+package com.humble.go.consumer;
+
+public class consumer_count {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

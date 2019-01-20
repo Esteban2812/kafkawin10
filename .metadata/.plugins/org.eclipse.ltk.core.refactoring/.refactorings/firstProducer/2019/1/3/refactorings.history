@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;serializer.java&apos; to &apos;consumer/src/main/java/com.humble.go.consumer&apos;&#x0D;&#x0A;- Original project: &apos;firstProducer&apos;&#x0D;&#x0A;- Destination element: &apos;consumer/src/main/java/com.humble.go.consumer&apos;&#x0D;&#x0A;- Original element: &apos;com.isaleesai.kafka.serializer.java&apos;" description="Copy compilation unit" destination="=consumer/src\/main\/java&lt;com.humble.go.consumer" element1="/src\/main\/java&lt;com.isaleesai.kafka{serializer.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1547613543433" units="1" version="1.0"/>
+</session>
