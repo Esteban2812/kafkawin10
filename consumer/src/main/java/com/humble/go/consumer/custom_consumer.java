@@ -14,18 +14,19 @@ public class custom_consumer{
 	
 	public static void main(String args[]) throws Exception{
 	
-String topicName ="stud1-details";
+String topicName ="productos";
 
 String Name ="student1";
 
 Properties props = new Properties();
-props.put("bootstrap.servers", "localhost:9092");
+props.put("bootstrap.servers", "192.168.1.106:9092");
 props.put("group.id", "StudentDetails");
 props.put("id.deserializer", "org.apache.kafka.common.serialization.StringDeserializer");
 props.put("key.deserializer","org.apache.kafka.common.serialization.StringDeserializer");
 props.put(	"value.deserializer",
 			//"custom_deserializer"
 			custom_deserializer.class.getName()
+		//"org.apache.kafka.common.serialization.StringDeserializer"
 		);
 KafkaConsumer<String, serializer> consumer = new KafkaConsumer<String, serializer>(props);
 consumer.subscribe(Arrays.asList(topicName));

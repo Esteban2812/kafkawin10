@@ -12,12 +12,12 @@ public class consumer_count {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String topicName ="stud1-details";
+		String topicName ="productos";
 
 		String Name ="student1";
 
 		Properties props = new Properties();
-		props.put("bootstrap.servers", "localhost:9092,localhost:9093");
+		props.put("bootstrap.servers", "192.168.0.22:9092");
 		props.put("group.id", "StudentDetails");
 		props.put("id.deserializer", "org.apache.kafka.common.serialization.StringDeserializer");
 		props.put("key.deserializer","org.apache.kafka.common.serialization.StringDeserializer");
